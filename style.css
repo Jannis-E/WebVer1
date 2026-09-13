@@ -277,6 +277,7 @@ p { margin: 0 0 16px; color: var(--text-muted); }
 .card p { margin: 0; font-size: 0.92rem; }
 
 .work-card {
+  display: block;
   background: var(--surface);
   border: 1px solid var(--surface-border);
   border-radius: var(--radius);
@@ -294,6 +295,7 @@ p { margin: 0 0 16px; color: var(--text-muted); }
 .work-thumb-1 { background: linear-gradient(135deg, #6366f1, #8b5cf6); }
 .work-thumb-2 { background: linear-gradient(135deg, #ec4899, #f97316); }
 .work-thumb-3 { background: linear-gradient(135deg, #06b6d4, #6366f1); }
+.work-thumb-4 { background: linear-gradient(135deg, #d4ff3d, #ec4899); }
 
 .work-tag {
   display: block;
