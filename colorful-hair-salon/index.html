@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorful — Temporary Dye Salon</title>
+<meta name="description" content="Colorful is a modern hair salon focused exclusively on temporary, wild hair dyes. Neon, pastel, and rainbow color — no damage, no commitment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">COLOR<span>FUL</span></a>
+    <nav class="nav" id="nav">
+      <a href="#menu">Color Menu</a>
+      <a href="#vibe">Vibe Check</a>
+      <a href="#book">Book</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow reveal" data-cursor="pink">NO PERMANENT DYE · EVER</p>
+      <h1 class="reveal">Commit to the<br><span class="hl-pink">color</span>, not the<br><span class="hl-green">timeline</span>.</h1>
+      <div class="hero-actions reveal">
+        <a href="#menu" class="btn btn-primary" data-cursor="green">See Color Menu</a>
+        <a href="#book" class="btn btn-outline" data-cursor="blue">Book a Slot</a>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>TEMPORARY DYE&nbsp;•&nbsp;FADES BEAUTIFULLY&nbsp;•&nbsp;NO DAMAGE&nbsp;•&nbsp;</span>
+        <span>TEMPORARY DYE&nbsp;•&nbsp;FADES BEAUTIFULLY&nbsp;•&nbsp;NO DAMAGE&nbsp;•&nbsp;</span>
+        <span>TEMPORARY DYE&nbsp;•&nbsp;FADES BEAUTIFULLY&nbsp;•&nbsp;NO DAMAGE&nbsp;•&nbsp;</span>
+        <span>TEMPORARY DYE&nbsp;•&nbsp;FADES BEAUTIFULLY&nbsp;•&nbsp;NO DAMAGE&nbsp;•&nbsp;</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <p class="eyebrow reveal" data-cursor="green">PICK YOUR CHAOS</p>
+      <h2 class="reveal">Color Menu</h2>
+
+      <div class="menu-grid">
+        <div class="menu-card reveal card-pink" data-cursor="pink">
+          <h3>The Weekend Neon</h3>
+          <p>Full-head acid brights built to last one unforgettable weekend.</p>
+          <span class="menu-price">CHF 65</span>
+        </div>
+        <div class="menu-card reveal card-green" data-cursor="green">
+          <h3>Pastel Wash</h3>
+          <p>Soft-fade pastel tones for a gentler kind of chaos.</p>
+          <span class="menu-price">CHF 55</span>
+        </div>
+        <div class="menu-card reveal card-blue" data-cursor="blue">
+          <h3>Money Piece Pop</h3>
+          <p>One bold streak, maximum impact, minimum commitment.</p>
+          <span class="menu-price">CHF 45</span>
+        </div>
+        <div class="menu-card reveal card-pink" data-cursor="pink">
+          <h3>Full Rainbow Melt</h3>
+          <p>Every color you can think of, blended edge to edge.</p>
+          <span class="menu-price">CHF 120</span>
+        </div>
+        <div class="menu-card reveal card-green" data-cursor="green">
+          <h3>Color Refresh</h3>
+          <p>Topping up an existing look before it fades all the way out.</p>
+          <span class="menu-price">CHF 35</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="vibe" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow reveal" data-cursor="blue">PROOF</p>
+      <h2 class="reveal">Vibe Check</h2>
+      <p class="section-sub reveal">A handful of the looks that walked out of our chairs.</p>
+
+      <div class="vibe-grid">
+        <div class="vibe-card reveal vibe-1" data-cursor="pink"></div>
+        <div class="vibe-card reveal vibe-2" data-cursor="green"></div>
+        <div class="vibe-card reveal vibe-3" data-cursor="blue"></div>
+        <div class="vibe-card reveal vibe-4" data-cursor="pink"></div>
+        <div class="vibe-card reveal vibe-5" data-cursor="green"></div>
+        <div class="vibe-card reveal vibe-6" data-cursor="blue"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="book" class="section section-book">
+    <div class="container book-inner">
+      <p class="eyebrow reveal" data-cursor="pink">READY?</p>
+      <h2 class="reveal">Get in the chair.</h2>
+      <a href="mailto:book@colorful.ch" class="btn-book reveal" data-cursor="green">BOOK YOUR SLOT</a>
+      <p class="book-note reveal">Cash, card, and TWINT accepted in-salon.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="logo">COLOR<span>FUL</span></span>
+    <address>Europaallee 21, 8004 Zürich</address>
+    <p class="footer-copy">© 2026 Colorful. Fades, doesn't fade away.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
