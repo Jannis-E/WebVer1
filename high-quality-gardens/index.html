@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>High-Quality Gardens — Architectural Landscape Studio</title>
+<meta name="description" content="High-Quality Gardens designs architectural outdoor spaces rooted in native Alpine flora, concrete, and water.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="logo">High-Quality<span>Gardens</span></a>
+    <nav class="nav" id="nav">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#works">Selected Works</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow reveal">LANDSCAPE ARCHITECTURE · ZÜRICH</p>
+      <h1 class="reveal">Gardens, considered<br>as architecture.</h1>
+      <p class="hero-sub reveal">We design outdoor spaces for people who notice detail.</p>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-label">SCROLL</span>
+      <span class="scroll-line"><span class="scroll-line-fill"></span></span>
+    </div>
+  </section>
+
+  <section id="philosophy" class="section philosophy">
+    <div class="container">
+      <p class="eyebrow reveal">PHILOSOPHY</p>
+      <p class="philosophy-statement reveal">
+        We work at the intersection of <em>native Alpine flora</em>, <em>poured concrete</em>,
+        and <em>still water</em> — three materials that, handled with restraint, outlast
+        every passing trend. A garden by High-Quality Gardens is not decoration. It is
+        structure, allowed to grow.
+      </p>
+    </div>
+  </section>
+
+  <section id="works" class="section works">
+    <div class="container">
+      <p class="eyebrow reveal">SELECTED WORKS</p>
+      <h2 class="reveal">Four Landscapes</h2>
+
+      <div class="masonry">
+        <figure class="masonry-item item-1 reveal">
+          <div class="masonry-media">
+            <div class="masonry-image img-1"></div>
+          </div>
+          <figcaption>
+            <span class="work-num">01</span>
+            <h3>Haus am Hang</h3>
+            <p>Terraced garden built into a steep Zürichberg slope, in poured concrete and dry-stone.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="masonry-item item-2 reveal">
+          <div class="masonry-media">
+            <div class="masonry-image img-2"></div>
+          </div>
+          <figcaption>
+            <span class="work-num">02</span>
+            <h3>Still Water Court</h3>
+            <p>A reflecting courtyard for a private residence, framed by native grasses.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="masonry-item item-3 reveal">
+          <div class="masonry-media">
+            <div class="masonry-image img-3"></div>
+          </div>
+          <figcaption>
+            <span class="work-num">03</span>
+            <h3>Alpine Threshold</h3>
+            <p>An entry garden of native alpine planting bridging architecture and mountain.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="masonry-item item-4 reveal">
+          <div class="masonry-media">
+            <div class="masonry-image img-4"></div>
+          </div>
+          <figcaption>
+            <span class="work-num">04</span>
+            <h3>The Long Room</h3>
+            <p>A linear concrete pergola garden, structuring a narrow urban plot end to end.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="section process">
+    <div class="container process-inner">
+      <div class="process-steps">
+        <p class="eyebrow reveal">PROCESS</p>
+        <h2 class="reveal">How we work.</h2>
+
+        <ol class="steps-list">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <div>
+              <h3>Site &amp; Brief</h3>
+              <p>We walk the site with you, understand light, soil, and how you actually live outdoors.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <div>
+              <h3>Design &amp; Materials</h3>
+              <p>A considered plan in concrete, stone, water, and planting — presented as drawings and a physical material palette.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <div>
+              <h3>Build &amp; Planting</h3>
+              <p>Our own crews execute the build, closing with a full planting season and a year of aftercare.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div id="contact" class="contact-block reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Begin a project.</h2>
+        <p class="contact-sub">Tell us briefly about your site. We reply within two working days.</p>
+        <form class="contact-form" id="contactForm">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="message">About your site</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline">Send Enquiry</button>
+        </form>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="logo">High-Quality<span>Gardens</span></span>
+    <address>Sihlquai 131, 8005 Zürich, Switzerland</address>
+    <p class="footer-copy">© 2026 High-Quality Gardens.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
