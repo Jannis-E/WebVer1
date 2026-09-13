@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aurora Studio — Digitale Erlebnisse aus der Schweiz</title>
+<title>Aurora Studio — Digital Experiences Crafted in Switzerland</title>
+<meta name="description" content="Aurora Studio is a Swiss digital agency crafting premium websites and digital products — web design, UX/UI, and performance engineering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="site-header">
+<div class="aurora-bg" aria-hidden="true">
+  <span class="orb orb-teal"></span>
+  <span class="orb orb-violet"></span>
+  <span class="orb orb-blue"></span>
+</div>
+
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a href="#top" class="logo">Aurora<span>Studio</span></a>
     <nav class="nav" id="nav">
-      <a href="#leistungen">Leistungen</a>
-      <a href="#arbeiten">Arbeiten</a>
-      <a href="#ueber-uns">Über uns</a>
-      <a href="#kontakt">Kontakt</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <a href="#kontakt" class="btn btn-primary btn-small header-cta">Projekt starten</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+    <a href="#contact" class="btn btn-glass btn-small header-cta">Start a Project</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -27,182 +38,98 @@
 <main id="top">
 
   <section class="hero">
-    <div class="stars" aria-hidden="true"></div>
     <div class="container hero-inner">
-      <span class="badge">DIGITALAGENTUR · SCHWEIZ</span>
-      <h1>Wir gestalten<br><span class="gradient-text">digitale Erlebnisse.</span></h1>
-      <p class="hero-sub">
-        Aurora Studio verbindet klares Design mit solider Technik. Wir entwickeln Websites
-        und digitale Produkte, die nicht nur gut aussehen, sondern auch funktionieren —
-        schnell, zuverlässig und auf Ihr Unternehmen zugeschnitten.
+      <p class="eyebrow reveal">DIGITAL AGENCY · SWITZERLAND</p>
+      <h1 class="reveal">Digital Experiences<br>Crafted in <span class="gradient-text">Switzerland.</span></h1>
+      <p class="hero-sub reveal">
+        Aurora Studio designs and builds premium websites and digital products —
+        precise, fast, and unmistakably considered, for brands that don't compromise.
       </p>
-      <div class="hero-actions">
-        <a href="#kontakt" class="btn btn-primary">Kostenloses Erstgespräch</a>
-        <a href="#arbeiten" class="btn btn-outline">Arbeiten ansehen</a>
-      </div>
-
-      <div class="stats">
-        <div class="stat">
-          <span class="stat-num">50+</span>
-          <span class="stat-label">Projekte umgesetzt</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">8</span>
-          <span class="stat-label">Jahre Erfahrung</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">100%</span>
-          <span class="stat-label">Schweizer Handarbeit</span>
-        </div>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-glass btn-large">Start a Project →</a>
       </div>
     </div>
   </section>
 
-  <section id="leistungen" class="section">
+  <section id="work" class="section">
     <div class="container">
-      <p class="eyebrow">WAS WIR BIETEN</p>
-      <h2>Leistungen</h2>
-      <p class="section-sub">Von der ersten Idee bis zum fertigen Produkt — alles aus einer Hand.</p>
+      <p class="eyebrow reveal">SELECTED WORK</p>
+      <h2 class="reveal">Portfolio</h2>
+      <p class="section-sub reveal">Four recent projects, four different worlds.</p>
 
-      <div class="grid grid-4">
-        <div class="card">
-          <div class="card-icon">🎨</div>
-          <h3>Webdesign</h3>
-          <p>Durchdachte Layouts und visuelle Identitäten, die zu Ihrer Marke passen und im Gedächtnis bleiben.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon">⚙️</div>
-          <h3>Entwicklung</h3>
-          <p>Sauber programmierte, performante Websites — responsiv auf jedem Gerät und einfach zu pflegen.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon">🔍</div>
-          <h3>SEO &amp; Performance</h3>
-          <p>Technisch optimierte Seiten, die schnell laden und von Suchmaschinen gerne gefunden werden.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon">🛠️</div>
-          <h3>Betreuung</h3>
-          <p>Auch nach dem Launch sind wir für Sie da — mit Wartung, Updates und persönlichem Support.</p>
-        </div>
+      <div class="bento">
+        <a class="bento-card bento-featured reveal" href="sub/nordpole/index.html" target="_blank" rel="noopener noreferrer">
+          <div class="bento-media bento-media-1"></div>
+          <div class="bento-body">
+            <span class="bento-tag">CONSULTING</span>
+            <h3>Nordpole Consulting</h3>
+            <p>Technical, stark identity for an elite Arctic expedition safety firm.</p>
+          </div>
+        </a>
+
+        <a class="bento-card reveal" href="sub/cafe/index.html" target="_blank" rel="noopener noreferrer">
+          <div class="bento-media bento-media-2"></div>
+          <div class="bento-body">
+            <span class="bento-tag">HOSPITALITY</span>
+            <h3>The Corner Cafe</h3>
+            <p>Warm, artisanal branding for a neighborhood cafe.</p>
+          </div>
+        </a>
+
+        <a class="bento-card reveal" href="sub/gardens/index.html" target="_blank" rel="noopener noreferrer">
+          <div class="bento-media bento-media-3"></div>
+          <div class="bento-body">
+            <span class="bento-tag">LANDSCAPE</span>
+            <h3>High-Quality Gardens</h3>
+            <p>Editorial portfolio for an architectural landscape studio.</p>
+          </div>
+        </a>
+
+        <a class="bento-card bento-wide reveal" href="sub/colorful/index.html" target="_blank" rel="noopener noreferrer">
+          <div class="bento-media bento-media-4"></div>
+          <div class="bento-body">
+            <span class="bento-tag">BEAUTY</span>
+            <h3>Colorful Hair Salon</h3>
+            <p>Neo-brutalist, high-energy identity for a temporary-dye salon.</p>
+          </div>
+        </a>
       </div>
     </div>
   </section>
 
-  <section id="arbeiten" class="section section-alt">
+  <section id="services" class="section">
     <div class="container">
-      <p class="eyebrow">AUSGEWÄHLTE PROJEKTE</p>
-      <h2>Arbeiten</h2>
-      <p class="section-sub">Ein Einblick in einige unserer letzten Projekte.</p>
+      <p class="eyebrow reveal">WHAT WE DO</p>
+      <h2 class="reveal">Services</h2>
 
-      <div class="grid grid-4">
-        <a class="work-card" href="sub/nordpole/index.html" target="_blank" rel="noopener noreferrer">
-          <div class="work-thumb work-thumb-1"></div>
-          <span class="work-tag">BERATUNG</span>
-          <h3>Nordpole Consulting</h3>
-          <p>Markenauftritt und Website für eine Expeditions-Sicherheitsberatung.</p>
-        </a>
-        <a class="work-card" href="sub/cafe/index.html" target="_blank" rel="noopener noreferrer">
-          <div class="work-thumb work-thumb-2"></div>
-          <span class="work-tag">GASTRONOMIE</span>
-          <h3>The Corner Cafe</h3>
-          <p>Warmes, einladendes Design für ein kleines Nachbarschaftscafé.</p>
-        </a>
-        <a class="work-card" href="sub/gardens/index.html" target="_blank" rel="noopener noreferrer">
-          <div class="work-thumb work-thumb-3"></div>
-          <span class="work-tag">LANDSCHAFTSARCHITEKTUR</span>
-          <h3>High-Quality Gardens</h3>
-          <p>Editorielles Portfolio für ein Studio für architektonische Gärten.</p>
-        </a>
-        <a class="work-card" href="sub/colorful/index.html" target="_blank" rel="noopener noreferrer">
-          <div class="work-thumb work-thumb-4"></div>
-          <span class="work-tag">BEAUTY</span>
-          <h3>Colorful Hair Salon</h3>
-          <p>Energiegeladener Auftritt für einen Salon für temporäre Haarfarben.</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="ueber-uns" class="section about">
-    <div class="container about-inner">
-      <div class="about-text">
-        <p class="eyebrow">WER WIR SIND</p>
-        <h2>Über uns</h2>
-        <p>
-          Aurora Studio ist ein kleines, inhabergeführtes Designstudio mit Sitz in der Schweiz.
-          Wir glauben daran, dass gutes Design und solide Technik Hand in Hand gehen — und dass
-          jedes Projekt individuell betreut werden sollte, ohne Templates von der Stange.
-        </p>
-        <p>
-          Ob kleines Familienunternehmen oder wachsendes KMU: Wir nehmen uns Zeit, Ihre Bedürfnisse
-          zu verstehen, und begleiten Sie persönlich vom ersten Gespräch bis weit über den Launch hinaus.
-        </p>
-      </div>
-      <div class="about-values">
-        <div class="value">
-          <span class="value-icon">💡</span>
-          <div>
-            <h3>Klarheit</h3>
-            <p>Ehrliche Beratung statt Fachchinesisch — wir erklären, was wir tun und warum.</p>
-          </div>
+      <div class="services-grid">
+        <div class="glass-card reveal">
+          <div class="glass-icon">◇</div>
+          <h3>Web Design</h3>
+          <p>Considered visual identities and interfaces that feel unmistakably yours.</p>
         </div>
-        <div class="value">
-          <span class="value-icon">🤝</span>
-          <div>
-            <h3>Persönlich</h3>
-            <p>Ein fester Ansprechpartner für Ihr Projekt, von Anfang bis Ende.</p>
-          </div>
+        <div class="glass-card reveal">
+          <div class="glass-icon">◆</div>
+          <h3>UX / UI</h3>
+          <p>Interfaces built around how people actually think, click, and read.</p>
         </div>
-        <div class="value">
-          <span class="value-icon">⚡</span>
-          <div>
-            <h3>Zuverlässig</h3>
-            <p>Klare Termine, transparente Preise, keine bösen Überraschungen.</p>
-          </div>
+        <div class="glass-card reveal">
+          <div class="glass-icon">◈</div>
+          <h3>Performance</h3>
+          <p>Lean, fast-loading builds — engineered to feel instant on any device.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="kontakt" class="section section-cta">
-    <div class="container cta-inner">
-      <p class="eyebrow">KONTAKT</p>
-      <h2>Lassen Sie uns sprechen</h2>
-      <p class="section-sub">
-        Haben Sie ein Projekt im Kopf? Schreiben Sie uns — wir melden uns innerhalb eines Werktags.
-      </p>
-      <div class="contact-grid">
-        <a href="mailto:hallo@aurorastudio.ch" class="contact-item">
-          <span class="contact-icon">✉️</span>
-          <span class="contact-label">E-Mail</span>
-          <span class="contact-value">hallo@aurorastudio.ch</span>
-        </a>
-        <a href="tel:+41440000000" class="contact-item">
-          <span class="contact-icon">📞</span>
-          <span class="contact-label">Telefon</span>
-          <span class="contact-value">044 000 00 00</span>
-        </a>
-        <div class="contact-item">
-          <span class="contact-icon">📍</span>
-          <span class="contact-label">Standort</span>
-          <span class="contact-value">Zürich, Schweiz</span>
-        </div>
-      </div>
-      <a href="mailto:hallo@aurorastudio.ch" class="btn btn-primary btn-large">Anfrage senden</a>
     </div>
   </section>
 
 </main>
 
-<footer class="site-footer">
+<footer id="contact" class="site-footer">
   <div class="container footer-inner">
     <span class="logo">Aurora<span>Studio</span></span>
-    <nav class="footer-nav">
-      <a href="#">Impressum</a>
-      <a href="#">Datenschutz</a>
-    </nav>
-    <p class="footer-copy">© 2026 Aurora Studio. Alle Rechte vorbehalten.</p>
+    <p class="footer-location">Zürich, Switzerland</p>
+    <a href="mailto:hallo@aurorastudio.ch" class="footer-mail">hallo@aurorastudio.ch</a>
+    <p class="footer-copy">© 2026 Aurora Studio. All rights reserved.</p>
   </div>
 </footer>
 
